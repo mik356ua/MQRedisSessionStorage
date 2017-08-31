@@ -17,10 +17,10 @@ return array(
             'adapter' => array (
                 'name' => 'redis',
                 'options' => array (
-                    'server' => [
+                    'server' => array(
                         'host' => '127.0.0.1',
                         'port' => 6379,
-                    ],
+                    ),
                     // optional db identifier
                     //'database' => 0,
                 ),                
@@ -35,5 +35,5 @@ return array(
             'remember_me_seconds' => 31536000,
             'use_cookies' => true,
         ),
-    )
+    ),
 );

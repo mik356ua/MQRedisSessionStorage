@@ -1,5 +1,5 @@
 {
-    "name": "n0v3xx/mq-redis-session",
+    "name": "mik356ua/mq-redis-session",
     "description": "Zend Framework 2 redis session storage",
     "type": "library",
     "keywords": ["redis","session","storage","zf2"],
@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "php": ">=5.6"
+        "php": ">=5.4"
     },
     "autoload": {
         "psr-0": {
